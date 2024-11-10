@@ -62,7 +62,7 @@ int main() {
     int thread_count = 4;
     omp_set_num_threads(thread_count); 
 
-    int image[HEIGHT][WIDTH]; // heap memory if stack overflow
+    int image[HEIGHT][WIDTH]; 
     double AVG = 0;
     int N = 10; // number of trials
     double total_time[N];
